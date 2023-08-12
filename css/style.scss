@@ -1,356 +1,363 @@
 //Fonts
 /* latin-ext */
 @font-face {
-	font-family: 'Lato-ext';
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-	unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-family: "Lato-ext";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext-bold */
 @font-face {
-	font-family: 'Lato-ext-bold';
-	font-style: normal;
-	font-weight: 700;
-	src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-	unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-family: "Lato-ext-bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin-bold */
 @font-face {
-	font-family: 'Lato-bold';
-	font-style: normal;
-	font-weight: 700;
-	src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Lato-bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 //Colors
-$goBeyond_gold: #EAC43C;
-$goBeyond_gold_light: #FFFB8C;
-$goBeyond_gold_dark: #AA861A;
-$goBeyond_gold_lighter: #FFFF92;
-$goBeyond_gray: #3F4B59;
-$goBeyond_gray_light: #E6E7E8;
+$goBeyond_gold: #eac43c;
+$goBeyond_gold_light: #fffb8c;
+$goBeyond_gold_dark: #aa861a;
+$goBeyond_gold_lighter: #ffff92;
+$goBeyond_gray: #3f4b59;
+$goBeyond_gray_light: #e6e7e8;
 
 body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Lato';
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
 
-	* p,
-	* h1,
-	* h2,
-	* h3,
-	* h4,
-	* h5,
-	* h6 {
-		margin: 0;
-		padding: 0;
-	}
+  * p,
+  * h1,
+  * h2,
+  * h3,
+  * h4,
+  * h5,
+  * h6 {
+    margin: 0;
+    padding: 0;
+  }
 
-	* fieldset {
-		border: none;
-		padding: 0;
-		margin: 0;
-	}
+  * fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
 
-	* input {
-		height: 60px;
-		width: 450px;
-		background-color: $goBeyond_gray_light;
-		border: none;
-	}
+  * input {
+    height: 60px;
+    width: 450px;
+    background-color: $goBeyond_gray_light;
+    border: none;
+  }
 }
 
 .goBeyond_header {
-	background-image: url(../images/bg_image_dsktp.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position-y: center;
+  background-image: url(../images/bg_image_dsktp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
 
-	display: flex;
-	flex-direction: column;
-	padding: 100px 50px 35px;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px 35px;
 
-	.header-logo {
-		width: 50%;
-		margin: 0 auto 45px;
-	}
+  .header-logo {
+    width: 50%;
+    margin: 0 auto 45px;
+  }
 
-	.title	{
-		font-size: 100px;
-		font-family: 'Lato-bold';
-		color: white;
-	}
+  .title {
+    font-size: 100px;
+    font-family: "Lato-bold";
+    color: white;
+  }
 
-	.line {
-		background-color: $goBeyond_gold;
-		height: 1px;
-		width: 100%;
-		margin: 40px 0 0;
-	}
+  .line {
+    background-color: $goBeyond_gold;
+    height: 1px;
+    width: 100%;
+    margin: 40px 0 0;
+  }
 
-	.paragraphs {
-		display: flex;justify-content: space-between;
-		color: white;
-		font-size: 12px;
-		margin: 5px 0;
-	}
+  .paragraphs {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    margin: 5px 0;
+  }
 }
 
 .goBeyond_main {
-	padding: 75px 60px;
+  padding: 75px 60px;
 
-	.copy-title,
-	.copy-subtitle {
-		// font-size: 29px;
-		font-size: 70px;
-		color: $goBeyond_gold;
-	}
+  .copy-title,
+  .copy-subtitle {
+    font-size: 70px;
+    color: $goBeyond_gold;
+  }
 
-	.copy-subtitle {
-		font-weight: lighter;
-		width: 50%;
-		margin: 0 0 50px;
-	}
+  .copy-subtitle {
+    font-weight: lighter;
+    width: 50%;
+    margin: 0 0 50px;
+  }
 
-	.items	{
-		padding: 0 0 0 20px;
-		// font-size: 14px;
-		font-size: 25px;
-		font-weight: lighter;
+  .items {
+    padding: 0 0 0 20px;
+    font-size: 25px;
+    font-weight: lighter;
 
-		> li	{
-			font-weight: lighter;
-			margin: 20px 0;
-		}
-	}
+    > li {
+      font-weight: lighter;
+      margin: 20px 0;
+    }
+  }
 
-	.copy-logo {
-		display: flex;
-		justify-content: flex-end;
-		margin: 90px 0 60px;
+  .copy-logo {
+    display: flex;
+    justify-content: flex-end;
+    margin: 90px 0 60px;
 
-		> img {
-			width: 20%;
-		}
-	}
+    > img {
+      width: 20%;
+    }
+  }
 
-	.division-line	{
-		background-color: $goBeyond_gold;
-		height: 5px;
-		width: 100%;
-		margin: 0 0 125px;
-		border: none;
-	}
+  .division-line {
+    background-color: $goBeyond_gold;
+    height: 5px;
+    width: 100%;
+    margin: 0 0 125px;
+    border: none;
+  }
 
-	.goBeyond_form {
-		.title {
-			font-size: 70px;
-			color: $goBeyond_gold;
-			margin: 0 0 30px;
+  .goBeyond_form {
+    .title {
+      font-size: 70px;
+      color: $goBeyond_gold;
+      margin: 0 0 30px;
 
-			.first-part	{
-				margin: 0 0 15px;
-			}
+      .first-part {
+        margin: 0 0 15px;
+      }
 
-			.last-part	{
-				display: inline;
-				padding: 0 0 0 20px;
-			}
+      .last-part {
+        display: inline;
+        padding: 0 0 0 20px;
+      }
 
-			> img {
-				width: 70%;
-			}
-		}
+      > img {
+        width: 70%;
+      }
+    }
 
-		.fieldset-1 {
-			> legend	{
-				color: $goBeyond_gray;
-				font-size: 40px;
-				margin: 45px 0 15px;
-			}
+    .fieldset-1 {
+      > legend {
+        color: $goBeyond_gray;
+        font-size: 40px;
+        margin: 45px 0 15px;
+      }
 
-			.form-container {
-				display: flex;
-				justify-content: space-between;
-				margin: 0;
-			
-				.form-container-1,
-				.form-container-1-2,
-				.form-container-1-3 {
-					> label {
-						font-size: 20px;
-						margin: 0 0 10px;
-						display: block;
-					}
-				}
-			}
-		}
+      .form-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
 
-		fieldset {
-			display: flex;
-			flex-direction: column;
+        .form-container-1,
+        .form-container-1-2,
+        .form-container-1-3 {
+          > label {
+            font-size: 20px;
+            margin: 0 0 10px;
+            display: block;
+          }
+        }
+      }
+    }
 
-				> legend	{
-					color: $goBeyond_gray;
-					font-size: 40px;
-					margin: 45px 0 15px;
-				}
+    fieldset {
+      display: flex;
+      flex-direction: column;
 
-				> label {
-				font-size: 20px;
-				margin: 15px 0 10px;
-				display: block;
-				color: $goBeyond_gray_light;
-			}
-		}
+      > legend {
+        color: $goBeyond_gray;
+        font-size: 40px;
+        margin: 45px 0 15px;
+      }
 
-		.container-0,
-		.container-3,
-		.container {
-			display: flex;
-			justify-content: space-between;
-			margin: 45px 0;
+      > label {
+        font-size: 20px;
+        margin: 15px 0 10px;
+        display: block;
+        color: $goBeyond_gray_light;
+      }
+    }
 
-			> fieldset {
-				width: 49%;
+    .container-0,
+    .container-3,
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin: 45px 0;
 
-				&:last-child {
-					margin: 63px 0 0;
-				}
+      > fieldset {
+        width: 49%;
 
-				> input {
-					width: 100%;
-				}
-			}
-		}
+        &:last-child {
+          margin: 63px 0 0;
+        }
 
-		.container-0 {
-			fieldset {
-				&:last-child {
-					margin: 0;
-				}
-			}
-		}
+        > input {
+          width: 100%;
+        }
+      }
+    }
 
-		.container-3 {
-			fieldset {
-				&:last-child {
-					margin: 0;
-				}
-			}
-		}
+    .container-0 {
+      fieldset {
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
 
-		.checkboxes {
-			margin: 100px 0;
-			color: $goBeyond_gray_light;
+    .container-3 {
+      fieldset {
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
 
-			.checkboxes-1,
-			.checkboxes-2,
-			.checkboxes-3 {
-				display: flex;
-				justify-content: flex-start;
-				align-items: center;
-				margin: 20px 0;
-			
-				> input {
-					height: 50px;
-					width: 50px;
-					border: none;
-					background-color: $goBeyond_gray;
-					margin: 0;
-				}
+    .checkboxes {
+      margin: 100px 0;
+      color: $goBeyond_gray_light;
 
-				> label {
-					font-size: 20px;
-					margin: 0 0 0 10px;
-					
-					> i {
-						color: $goBeyond_gray;
-					}
-				}
-			}
-		}
-	}
+      .checkboxes-1,
+      .checkboxes-2,
+      .checkboxes-3 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 20px 0;
+
+        > input {
+          height: 50px;
+          width: 50px;
+          border: none;
+          background-color: $goBeyond_gray;
+          margin: 0;
+        }
+
+        > label {
+          font-size: 20px;
+          margin: 0 0 0 10px;
+
+          > i {
+            color: $goBeyond_gray;
+          }
+        }
+      }
+    }
+  }
 }
 
-.goBeyond_footer	{
-	padding: 40px 0 0;
+.goBeyond_footer {
+  padding: 40px 0 0;
 
-	.container-title {
-		display: flex;
-		align-items: center;
-		margin: 0 30px;
+  .container-title {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
 
-		.footer-title {
-			font-size: 40px;
-			color: white;
-			padding: 20px 0 20px 20px;
-			background-color: black;
-			width: 30%;
-			margin: 0 20px 0 0;
-		}
+    .footer-title {
+      font-size: 40px;
+      color: white;
+      padding: 20px 0 20px 20px;
+      background-color: black;
+      width: 30%;
+      margin: 0 20px 0 0;
+    }
 
-		> p {
-			font-size: 30px;
-			color: $goBeyond_gray_light;
-		}
-	}
+    > p {
+      font-size: 30px;
+      color: $goBeyond_gray_light;
+    }
+  }
 
-	.footer-QR-USDT,
-	.footer-QR-BTC {
-		margin: 0 70px;
-		font-size: 30px;
+  .footer-QR-USDT,
+  .footer-QR-BTC {
+    margin: 0 70px;
+    font-size: 30px;
 
-		.serial {
-			color: $goBeyond_gray_light;
-			margin: 0 0 30px;
-		}
+    .serial {
+      color: $goBeyond_gray_light;
+      margin: 0 0 30px;
+    }
 
-		img {
-			width: 230px;
-			margin: 0 0 60px;
-		}
-	}
+    img {
+      width: 230px;
+      margin: 0 0 60px;
+    }
+  }
 
-	.footer-QR-BTC {
-		display: flex;
+  .footer-QR-BTC {
+    display: flex;
 
-		.container-left	{
-			> img {
-				margin: 0;
-			}
-		}
+    .container-left {
+      > img {
+        margin: 0;
+      }
+    }
 
-		.container-right 	{
-			display: flex;
-			justify-content: flex-end;
-			align-items: flex-end;
+    .container-right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
 
-			> label {
-				color: $goBeyond_gray_light;
-				width: 32%;
-				margin: 0 20px 75px;
-			}
+      > label {
+        color: $goBeyond_gray_light;
+        width: 32%;
+        margin: 0 20px 75px;
+      }
 
-			> input {
-				height: 140px;
-			}
-		}
-	}
+      > input {
+        height: 140px;
+      }
+    }
+  }
 
-	.footer-bottom {
-		margin: 120px auto 0;
-		display: flex;
-	}
+  .footer-bottom {
+    margin: 120px auto 0;
+    display: flex;
+  }
 }
-
-

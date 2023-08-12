@@ -53,7 +53,7 @@ body * fieldset {
 body * input {
   height: 60px;
   width: 450px;
-  background-color: #E6E7E8;
+  background-color: #e6e7e8;
   border: none;
 }
 
@@ -76,7 +76,7 @@ body * input {
   color: white;
 }
 .goBeyond_header .line {
-  background-color: #EAC43C;
+  background-color: #eac43c;
   height: 1px;
   width: 100%;
   margin: 40px 0 0;
@@ -95,7 +95,7 @@ body * input {
 .goBeyond_main .copy-title,
 .goBeyond_main .copy-subtitle {
   font-size: 70px;
-  color: #EAC43C;
+  color: #eac43c;
 }
 .goBeyond_main .copy-subtitle {
   font-weight: lighter;
@@ -120,7 +120,7 @@ body * input {
   width: 20%;
 }
 .goBeyond_main .division-line {
-  background-color: #EAC43C;
+  background-color: #eac43c;
   height: 5px;
   width: 100%;
   margin: 0 0 125px;
@@ -128,7 +128,7 @@ body * input {
 }
 .goBeyond_main .goBeyond_form .title {
   font-size: 70px;
-  color: #EAC43C;
+  color: #eac43c;
   margin: 0 0 30px;
 }
 .goBeyond_main .goBeyond_form .title .first-part {
@@ -142,7 +142,7 @@ body * input {
   width: 70%;
 }
 .goBeyond_main .goBeyond_form .fieldset-1 > legend {
-  color: #3F4B59;
+  color: #3f4b59;
   font-size: 40px;
   margin: 45px 0 15px;
 }
@@ -163,7 +163,7 @@ body * input {
   flex-direction: column;
 }
 .goBeyond_main .goBeyond_form fieldset > legend {
-  color: #3F4B59;
+  color: #3f4b59;
   font-size: 40px;
   margin: 45px 0 15px;
 }
@@ -171,7 +171,7 @@ body * input {
   font-size: 20px;
   margin: 15px 0 10px;
   display: block;
-  color: #E6E7E8;
+  color: #e6e7e8;
 }
 .goBeyond_main .goBeyond_form .container-0,
 .goBeyond_main .goBeyond_form .container-3,
@@ -203,7 +203,7 @@ body * input {
 }
 .goBeyond_main .goBeyond_form .checkboxes {
   margin: 100px 0;
-  color: #E6E7E8;
+  color: #e6e7e8;
 }
 .goBeyond_main .goBeyond_form .checkboxes .checkboxes-1,
 .goBeyond_main .goBeyond_form .checkboxes .checkboxes-2,
@@ -219,7 +219,7 @@ body * input {
   height: 50px;
   width: 50px;
   border: none;
-  background-color: #3F4B59;
+  background-color: #3f4b59;
   margin: 0;
 }
 .goBeyond_main .goBeyond_form .checkboxes .checkboxes-1 > label,
@@ -231,7 +231,7 @@ body * input {
 .goBeyond_main .goBeyond_form .checkboxes .checkboxes-1 > label > i,
 .goBeyond_main .goBeyond_form .checkboxes .checkboxes-2 > label > i,
 .goBeyond_main .goBeyond_form .checkboxes .checkboxes-3 > label > i {
-  color: #3F4B59;
+  color: #3f4b59;
 }
 
 .goBeyond_footer {
@@ -252,7 +252,7 @@ body * input {
 }
 .goBeyond_footer .container-title > p {
   font-size: 30px;
-  color: #E6E7E8;
+  color: #e6e7e8;
 }
 .goBeyond_footer .footer-QR-USDT,
 .goBeyond_footer .footer-QR-BTC {
@@ -261,7 +261,7 @@ body * input {
 }
 .goBeyond_footer .footer-QR-USDT .serial,
 .goBeyond_footer .footer-QR-BTC .serial {
-  color: #E6E7E8;
+  color: #e6e7e8;
   margin: 0 0 30px;
 }
 .goBeyond_footer .footer-QR-USDT img,
@@ -281,7 +281,7 @@ body * input {
   align-items: flex-end;
 }
 .goBeyond_footer .footer-QR-BTC .container-right > label {
-  color: #E6E7E8;
+  color: #e6e7e8;
   width: 32%;
   margin: 0 20px 75px;
 }
