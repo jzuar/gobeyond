@@ -50,127 +50,157 @@
 			
 				<form action="" method="post">
 					<fieldset class="fieldset-1">
-						<div class="mini-container-1">
-							<legend class="form-title-1">Datos Personales</legend>
-							<label for="nombre">Nombre</label>
-							<input type="text" id="nombre" name="nombre">
+						<legend class="container-title-1">Datos Personales</legend>
+							<div class="form-container">
+								<div class="form-container-1">
+									<label for="nombre">Nombre</label>
+									<input type="text" id="nombre" name="nombre">
+								</div>
+								
+								<div class="form-container-1-2">
+									<label for="primerApellido">Primer Apellido</label>
+									<input type="text" id="primerApellido" name="primerApellido">
+								</div>
+
+								<div class="form-container-1-3">
+									<label for="segundoApellido">Segundo Apellido</label>
+									<input type="text" id="segundoApellido" name="segundoApellido">
+								</div>
+							</div>
+					</fieldset>
+						<div class="container-0">
+							<fieldset>
+								<label for="fechaNacimiento">Fecha de Nacimiento</label>
+								<input type="date" id="fechaNacimiento" name="fechaNacimiento">
+
+								<label for="nacionalidad">Nacionalidad</label>
+								<input type="text" id="nacionalidad" name="nacionalidad">
+
+								<label for="identificacion">Identificacion</label>
+								<input type="number" id="identificacion" name="identificacion">
+
+								<label for="movil">Movil</label>
+								<input type="number" id="movil" name="movil">
+							</fieldset>
+	
+							<fieldset>
+								<label for="estadoCivil">Estado Civil</label>
+								<input type="text" id="estadoCivil" name="estadoCivil">
+
+								<label for="tipoIdentificacion">Tipo de Identificacion</label>
+								<input type="text" id="tipoIdentificacion" name="tipoIdentificacion">
+
+								<label for="telefono">Telefono</label>
+								<input type="tel" id="telefono" name="telefono" pattern="[0-8]{4}-[0-8]{4}">
+
+								<label for="correo">Correo</label>
+								<input type="email" id="correo" name="correo">
+							</fieldset>
 						</div>
 
-						<label for="primerApellido">Primer Apellido</label>
-						<input type="text" id="primerApellido" name="primerApellido">
+						<div class="container">
+							<fieldset>
+								<legend>Ubicación</legend>
+								<label for="paisRecidencia">Pais de Recidencia</label>
+								<input type="text" id="paisRecidencia" name="paisRecidencia">
 
-						<label for="segundoApellido">Segundo Apellido</label>
-						<input type="text" id="segundoApellido" name="segundoApellido">
-					</fieldset>
-					<fieldset>
-						<label for="fechaNacimiento">Fecha de Nacimiento</label>
-						<input type="date" id="fechaNacimiento" name="fechaNacimiento">
+								<label for="provincia">Provincia</label>
+								<input type="text" id="provincia" name="provincia">
 
-						<label for="nacionalidad">Nacionalidad</label>
-						<input type="text" id="nacionalidad" name="nacionalidad">
+								<label for="distrito">Distrito</label>
+								<input type="text" id="distrito" name="distrito">
+							</fieldset>
 
-						<label for="identificacion">Identificacion</label>
-						<input type="number" id="identificacion" name="identificacion">
+							<fieldset>
+								<label for="direccion">Dirección</label>
+								<input type="text" id="direccion" name="direccion">
 
-						<label for="movil">Movil</label>
-						<input type="number" id="movil" name="movil">
-					</fieldset>
-					<fieldset>
-						<label for="estadoCivil">Estado Civil</label>
-						<input type="text" id="estadoCivil" name="estadoCivil">
+								<label for="canton">Cantón</label>
+								<input type="text" id="canton" name="canton">
 
-						<label for="tipoIdentificacion">Tipo de Identificacion</label>
-						<input type="text" id="tipoIdentificacion" name="tipoIdentificacion">
+								<label for="tipoResidencia">Tipo de residencia</label>
+								<input type="text" id="tipoResidencia" name="tipoResidencia">
+							</fieldset>
+						</div>
 
-						<label for="telefono">Telefono</label>
-						<input type="tel" id="telefono" name="telefono" pattern="[0-8]{4}-[0-8]{4}">
+						<div class="container">
+							<fieldset>
+								<legend>Actividad económica</legend>
+								<label for="actividadEconomica">Activada Económica</label>
+								<input type="text" id="actividadEconomica" name="actividadEconomica">
 
-						<label for="correo">Correo</label>
-						<input type="email" id="correo" name="correo">
-					</fieldset>
-					<fieldset>
-						<legend>Ubicación</legend>
-						<label for="paisRecidencia">Pais de Recidencia</label>
-						<input type="text" id="paisRecidencia" name="paisRecidencia">
+								<label for="cargo">Cargo</label>
+								<input type="text" id="cargo" name="cargo">
 
-						<label for="provincia">Provincia</label>
-						<input type="text" id="provincia" name="provincia">
+								<label for="nivelEstudios">Nivel de estudios</label>
+								<input type="text" id="nivelEstudios" name="nivelEstudios">
+							</fieldset>
 
-						<label for="distrito">Distrito</label>
-						<input type="text" id="distrito" name="distrito">
-					</fieldset>
-					<fieldset>
-						<label for="direccion">Dirección</label>
-						<input type="text" id="direccion" name="direccion">
+							<fieldset>
+								<label for="profesion">Profesión</label>
+								<input type="text" id="profesion" name="profesion">
 
-						<label for="canton">Cantón</label>
-						<input type="text" id="canton" name="canton">
+								<label for="ingresosMensuales">Ingresos Mensuales (Colones)</label>
+								<input type="text" id="ingresosMensuales" name="ingresosMensuales">
+							</fieldset>
+						</div>
 
-						<label for="tipoResidencia">Tipo de residencia</label>
-						<input type="text" id="tipoResidencia" name="tipoResidencia">
-					</fieldset>
-					<fieldset>
-						<legend>Actividad económica</legend>
-						<label for="actividadEconomica">Activada Económica</label>
-						<input type="text" id="actividadEconomica" name="actividadEconomica">
+						<div class="container-3">
+							<fieldset>
+								<legend>Documentos</legend>
+								<label for="fechaExpira">Fecha de Expiración Identificación</label>
+								<input type="text" id="fechaExpira" name="fechaExpira">
 
-						<label for="cargo">Cargo</label>
-						<input type="text" id="cargo" name="cargo">
+								<label for="fotoDelanteraID">Foto delantera de Identificación</label>
+								<input type="image" id="fotoDelanteraID" name="fotoDelanteraID">
 
-						<label for="nivelEstudios">Nivel de estudios</label>
-						<input type="text" id="nivelEstudios" name="nivelEstudios">
-					</fieldset>
-					<fieldset>
-						<label for="profesion">Profesión</label>
-						<input type="text" id="profesion" name="profesion">
+								<label for="autoridadExpedidora">Autoridad Expedidora</label>
+								<input type="text" id="autoridadExpedidora" name="autoridadExpedidora">
+								
+								<label for="fotoPosteriorID">Foto posterior de Identificación</label>
+								<input type="image" id="fotoPosteriorID" name="fotoPosteriorID">
+							</fieldset>
+						</div>
 
-						<label for="ingresosMensuales">Ingresos Mensuales (Colones)</label>
-						<input type="text" id="ingresosMensuales" name="ingresosMensuales">
-					</fieldset>
-					<fieldset>
-						<legend>Documentos</legend>
-						<label for="fechaExpira">Fecha de Expiración Identificación</label>
-						<input type="text" id="fechaExpira" name="fechaExpira">
-
-						<label for="fotoDelanteraID">Foto delantera de Identificación</label>
-						<input type="image" id="fotoDelanteraID" name="fotoDelanteraID">
-
-						<label for="autoridadExpedidora">Autoridad Expedidora</label>
-						<input type="text" id="autoridadExpedidora" name="autoridadExpedidora">
+						<fieldset>
+							<legend>Información Adicional</legend>
+							<label for="monedaGoBeyond">Moneda de la Tarjeta Go Beyond</label>
+							<input type="text" id="monedaGoBeyond" name="monedaGoBeyond">
+						</fieldset>
 						
-						<label for="fotoPosteriorID">Foto posterior de Identificación</label>
-						<input type="image" id="fotoPosteriorID" name="fotoPosteriorID">
-					</fieldset>
-					<fieldset>
-						<legend>Información Adicional</legend>
-						<label for="monedaGoBeyond">Moneda de la Tarjeta Go Beyond</label>
-						<input type="text" id="monedaGoBeyond" name="monedaGoBeyond">
-					</fieldset>
-					<fieldset>
-						<input type="checkbox" id="terminos" value="terminos" name="terminos">
-						<label for="terminos">Estoy de acuerdo con los términos y condiciones de Go Beyond para la apertura y el uso de la cuenta y la tarjeta Go Beyond. (Ver términos y condiciones de uso de la App Go Beyond)</label>
-						
-						<input type="checkbox" id="consentimiento" value="consentimiento" name="consentimiento">
-						<label for="consentimiento">Manifiesto mi consentimiento informado sobre los términos y condiciones de privacidad, seguridad y uso de datos de la aplicación Go Beyond. (Ver políticas de privacidad)</label>
-						
-						<input type="checkbox" id="aprobacion" value="aprobacion" name="aprobacion">
-						<label for="aprobacion">Entiendo y acepto, que al suscribir la apertura de la cuenta Go Beyond formalizo mi afiliación a Go Beyond y se realiza un aporte de capital social según el estatuto de la empresa</label>
-					</fieldset>
+						<fieldset class="checkboxes">
+							<div class="checkboxes-1">
+								<input type="checkbox" id="terminos" value="terminos" name="terminos">
+								<label for="terminos">Estoy de acuerdo con los términos y condiciones de Go Beyond para la apertura y el uso de la cuenta y la tarjeta Go Beyond. <i>(Ver términos y condiciones de uso de la App Go Beyond)</i></label>
+							</div>
+							<div class="checkboxes-2">
+								<input type="checkbox" id="consentimiento" value="consentimiento" name="consentimiento">
+								<label for="consentimiento">Manifiesto mi consentimiento informado sobre los términos y condiciones de privacidad, seguridad y uso de datos de la aplicación Go Beyond. <i>(Ver políticas de privacidad)</i></label>
+							</div>
+							<div class="checkboxes-3">
+								<input type="checkbox" id="aprobacion" value="aprobacion" name="aprobacion">
+								<label for="aprobacion">Entiendo y acepto, que al suscribir la apertura de la cuenta Go Beyond formalizo mi afiliación a Go Beyond y se realiza un aporte de capital social según el estatuto de la empresa</label>
+							</div>
+						</fieldset>
 				</form>
 			</div>
 		</main>
 		<footer class="goBeyond_footer">
-			<h6 class="footer-title">
-				Enlaces de pago
-			</h6>
-			<p>Costo de la tarjeta $49.99</p>
+			<div class="container-title">
+				<h6 class="footer-title">
+					Enlaces de pago
+				</h6>
+				<p>Costo de la tarjeta $49.99</p>
+			</div>
 			<div class="footer-QR-USDT">
-				<p>0x8Dc782d85a6040870B9CCa1D09b13a9bbE0563B4</p>
+				<p>QR USDT</p>
+				<p class="serial">0x8Dc782d85a6040870B9CCa1D09b13a9bbE0563B4</p>
 				<img src="./images/qr_usdt.svg" alt="QR USDT">
 			</div>
-			<div class="footer-QR-BIT">
+			<div class="footer-QR-BTC">
 				<div class="container-left">
-					<p>1JRXH6NfF1sjDqXJRG3XMKw18yGngvseZa</p>
+					<p>QR BITCOIN</p>
+					<p class="serial">1JRXH6NfF1sjDqXJRG3XMKw18yGngvseZa</p>
 					<img src="./images/qr_bitcoin.svg" alt="QR BITCOIN">
 				</div>
 				<form class="container-right">
