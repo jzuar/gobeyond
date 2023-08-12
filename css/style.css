@@ -45,13 +45,6 @@ body * h6 {
   margin: 0;
   padding: 0;
 }
-body * button {
-  border: none;
-}
-body * a {
-  text-decoration: none;
-  color: inherit;
-}
 body * fieldset {
   border: none;
   padding: 0;
