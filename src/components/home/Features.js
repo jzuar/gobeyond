@@ -12,10 +12,9 @@ function Features(){
         <>
         <div className="attention grid place-items-center w-full">
             <div className="max-w-5xl py-24 content-center justify-center">
-                <h1 className="copy-title">¡ATENCIÓN!</h1>
-                <h3 class="copy-subtitle">
+                 <h2 className="copy-title">¡ATENCIÓN!<br/>
                 Leer completo antes de comenzar
-                </h3>
+                </h2>
                 <ul class="items">
                     <li>Si el tipo de identificación es pasaporte, la imagen que va a subir debe ser de la portada y parte donde se encuentra la fotografía..</li>
                     <li>En el caso de menores de edad se debe completar y firmar la autorización de menores e incluirla en el espacio de “Documentos Adicionales” con fotografía del documento de identificación del tutor.</li>
