@@ -60,8 +60,8 @@ const Formulario = () => {
       //documentos
       formData.append('fechaExpiracion', event.target.fechaExpiracion.value);
       formData.append('autoridadExpedidora', event.target.autoridadExpedidora.value);
-      formData.append('frontPhoto', frontPhoto);
-      formData.append('backPhoto', backPhoto);
+      formData.append('frontPhoto', event.target.frontPhoto.files[0]);
+      formData.append('backPhoto', event.target.backPhoto.files[0]);
 
       // Agrega aquí más campos de formulario según sus nombres
       formData.append('monedaTarjeta', event.target.monedaTarjeta.value);
@@ -69,7 +69,11 @@ const Formulario = () => {
       formData.append('terminos', event.target.terminos.value);
 
       //const response = await axios.post('http://localhost:8080/send-email', formData);
-      const response = await axios.post('https://beyondbe-c5805b0ca2ed.herokuapp.com/send-email', formData);
+      const response = await axios.post('https://beyondbe-c5805b0ca2ed.herokuapp.com/send-email', formData, {
+        headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+      });
 
       if (response.status === 200) {
         console.log('Datos enviados exitosamente');
