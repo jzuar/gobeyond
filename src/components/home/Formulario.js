@@ -64,11 +64,12 @@ const Formulario = () => {
       formData.append('backPhoto', backPhoto);
 
       // Agrega aquí más campos de formulario según sus nombres
-      formData.append('modedaTarjeta', modedaTarjeta);
-      formData.append('consentimiento', consentimiento);
-      formData.append('terminos', terminos);
+      formData.append('monedaTarjeta', event.target.monedaTarjeta.value);
+      formData.append('consentimiento', event.target.consentimiento.value);
+      formData.append('terminos', event.target.terminos.value);
 
       const response = await axios.post('http://localhost:8080/send-email', formData);
+      //const response = await axios.post('https://beyondbe-c5805b0ca2ed.herokuapp.com/send-email', formData);
 
       if (response.status === 200) {
         console.log('Datos enviados exitosamente');
@@ -187,7 +188,7 @@ const Formulario = () => {
                 <div className="grid grid-cols-1 gap-1">
                   <FormControl fullWidth>
                     <InputLabel>Moneda de la Tarjeta Gobeyond</InputLabel>
-                    <Select name="modedaTarjeta">
+                    <Select name="monedaTarjeta">
                       <MenuItem value="dolares">Dólares</MenuItem>
                       <MenuItem value="colones">Colones</MenuItem>
                     </Select>
