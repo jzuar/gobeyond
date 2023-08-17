@@ -68,8 +68,8 @@ const Formulario = () => {
       formData.append('consentimiento', event.target.consentimiento.value);
       formData.append('terminos', event.target.terminos.value);
 
-      const response = await axios.post('http://localhost:8080/send-email', formData);
-      //const response = await axios.post('https://beyondbe-c5805b0ca2ed.herokuapp.com/send-email', formData);
+      //const response = await axios.post('http://localhost:8080/send-email', formData);
+      const response = await axios.post('https://beyondbe-c5805b0ca2ed.herokuapp.com/send-email', formData);
 
       if (response.status === 200) {
         console.log('Datos enviados exitosamente');
