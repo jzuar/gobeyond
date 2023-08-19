@@ -200,6 +200,10 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
 }
+footer {
+  padding-bottom: 15em;
+}
+
 
 /* Mobile */
 @media (max-width: 700px) {
