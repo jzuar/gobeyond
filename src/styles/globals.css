@@ -199,6 +199,7 @@ body {
     background-image: url("/images/footer.svg");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: contain;
 }
 footer {
   padding-bottom: 15em;

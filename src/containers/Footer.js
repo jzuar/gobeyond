@@ -3,8 +3,8 @@ import { Button } from '@mui/material';
 function Footer() {
     return(
         <div className='bg_page'>
-          <div className=" footer-botton-logo flex justify-center">
-            <footer className="footer goBeyond_footer p-10 max-w-5xl  pb-12 sm:pb-24 text-base-content">
+          <div className=" footer-botton-logo flex justify-center pb-12 sm:pb-24">
+            <footer className="footer goBeyond_footer p-10 max-w-5xl   text-base-content">
               <div className="grid my-10 md:grid-cols-2">
                 <div className="grid grid-cols-1 gap-4 img-left">
                   <Button className="footer-title bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded">
