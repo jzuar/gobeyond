@@ -11,11 +11,11 @@ function Features(){
     return(
         <>
         <div className="attention grid place-items-center w-full">
-            <div className="max-w-5xl py-24 content-center justify-center">
-                 <h2 className="copy-title">¡ATENCIÓN!<br/>
+            <div className="max-w-5xl py-5 sm:py-24 content-center justify-center">
+                 <h2 className="copy-title text-4xl sm:text-7xl">¡ATENCIÓN!<br/>
                 Leer completo antes de comenzar
                 </h2>
-                <ul class="items">
+                <ul class="items text-sm sm:text-2xl">
                     <li>Si el tipo de identificación es pasaporte, la imagen que va a subir debe ser de la portada y parte donde se encuentra la fotografía..</li>
                     <li>En el caso de menores de edad se debe completar y firmar la autorización de menores e incluirla en el espacio de “Documentos Adicionales” con fotografía del documento de identificación del tutor.</li>
                     <li>El formato de la imagen a cargar solo puede ser JPEG o PNG.</li>

@@ -5,11 +5,11 @@ function Hero(){
                 <picture className="header-logo">
 				<img src="/images/logo_gold.svg" alt="Logo" />
                 </picture>
-                <h1 className="title text-5xl text-4xl text-7xl font-bold">
+                <h1 className="title text-4xl sm:text-7xl font-bold">
                     FORMULARIO DE INSCRIPCIÓN
                 </h1>
                 <hr className="line" />
-                <div className="paragraphs py-6">
+                <div className="paragraphs py-2 sm:py-6">
                     <p>GO BEYOND</p>
                     <p>FORMULARIO DE INSCRIPCIÓN</p>
                 </div>

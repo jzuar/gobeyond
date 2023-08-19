@@ -92,16 +92,16 @@ const Formulario = () => {
     <div className="goBeyond_form bg_page grid place-items-center w-full">
       <div className="w-full max-w-5xl content-center justify-center">
          <hr class="division-line" />
-         <div class="title">
+         <div class="title text-4xl sm:text-7xl">
             <p class="first-part">Solicita tu</p>
             <img src="/images/logo_no_icon_black.svg" alt="goBeyond-text" /><p class="last-part">Card</p>
           </div>
-            <form onSubmit={handleSubmit}>
-              <legend class="container-title-1">Datos Personales</legend>
+            <form onSubmit={handleSubmit} className='px-5 sm:px-1'>
+              <legend class="container-title-1 text-2xl sm:text-4xl">Datos Personales</legend>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-3">
-                  <TextField label="Nombre" fullWidth InputLabelProps={{ shrink: true }} name="nombre"/>
-                  <TextField label="Primer Apellido" fullWidth InputLabelProps={{ shrink: true }} name="primerApellido"/>
-                  <TextField label="Segundo Apellido" fullWidth InputLabelProps={{ shrink: true }} name="segundoApellido"/>
+                  <TextField label="Nombre" fullWidth  name="nombre"/>
+                  <TextField label="Primer Apellido" fullWidth  name="primerApellido"/>
+                  <TextField label="Segundo Apellido" fullWidth  name="segundoApellido"/>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-3">
 
@@ -123,21 +123,30 @@ const Formulario = () => {
                         <MenuItem value="viudo">Viudo</MenuItem>
                       </Select>
                     </FormControl>
-                    <TextField label="Nacionalidad" fullWidth InputLabelProps={{ shrink: true }} name="nacionalidad"/>
-                    <TextField label="Tipo de Identificación" fullWidth type="number" InputLabelProps={{ shrink: true }} name="tipoIdentificacion"/>
-                    <TextField label="Identificación" fullWidth type="number" InputLabelProps={{ shrink: true }} name="identificacion"/>
-                    <TextField label="Teléfono" fullWidth type="number" InputLabelProps={{ shrink: true }} name="telefono"/>
-                    <TextField label="Móvil" fullWidth type="number" InputLabelProps={{ shrink: true }} name="movil"/>
-                    <TextField label="Correo" fullWidth type="email" InputLabelProps={{ shrink: true }} name="correo"/>
+                    <TextField label="Nacionalidad" fullWidth  name="nacionalidad"/>
+                    <FormControl fullWidth>
+                      <InputLabel>Tipo de Identificación</InputLabel>
+                      <Select name="tipoIdentificacion">
+                        <MenuItem value="personaFisicaNacional">Persona Fisica Nacional</MenuItem>
+                        <MenuItem value="dimax">Dimax</MenuItem>
+                        <MenuItem value="gobierno">Gobierno</MenuItem>
+                        <MenuItem value="institucionesAutonomas">Instituciones Autonomas</MenuItem>
+                        <MenuItem value="pasaporte">Pasaporte</MenuItem>
+                      </Select>
+                    </FormControl>
+                    <TextField label="Identificación" fullWidth type="number"  name="identificacion"/>
+                    <TextField label="Teléfono" fullWidth type="number"  name="telefono"/>
+                    <TextField label="Móvil" fullWidth type="number"  name="movil"/>
+                    <TextField label="Correo" fullWidth type="email"  name="correo"/>
                 </div>
 
                 <legend>Ubicación</legend>
                 <div className="grid grid-cols-2 gap-2">
-                  <TextField label="País de Residencia" fullWidth InputLabelProps={{ shrink: true }} name="pais"/>
-                  <TextareaAutosize label="Dirección" rowsMin={3} fullWidth InputLabelProps={{ shrink: true }} name="direccion"/>
-                  <TextField label="Provincia" fullWidth InputLabelProps={{ shrink: true }} name="provincia"/>
-                  <TextField label="Cantón" fullWidth InputLabelProps={{ shrink: true }} name="canton"/>
-                  <TextField label="Distrito" fullWidth InputLabelProps={{ shrink: true }} name="distrito"/>
+                  <TextField label="País de Residencia" fullWidth  name="pais"/>
+                  <TextField label="Dirección" fullWidth  name="direccion"/>
+                  <TextField label="Provincia" fullWidth  name="provincia"/>
+                  <TextField label="Cantón" fullWidth  name="canton"/>
+                  <TextField label="Distrito" fullWidth  name="distrito"/>
                   <FormControl fullWidth>
                     <InputLabel>Tipo de Residencia</InputLabel>
                     <Select name="tipoResidencia">
@@ -150,11 +159,11 @@ const Formulario = () => {
                 </div>
                 <legend>Actividad económica</legend>
                 <div className="grid grid-cols-2 gap-2">
-                  <TextField label="Actividad Económica" fullWidth InputLabelProps={{ shrink: true }} name="actividadEconomica"/>
-                  <TextField label="Profesión" fullWidthInputLabelProps={{ shrink: true }} name="profesion" />
-                  <TextField label="Cargo" fullWidth InputLabelProps={{ shrink: true }} name="cargo"/>
-                  <TextField label="Ingresos Mensuales" fullWidth type="number" InputLabelProps={{ shrink: true }} name="ingresosMensuales"/>
-                  <TextField label="Nivel de Estudios" fullWidth InputLabelProps={{ shrink: true }} name="nivelEstudio"/>
+                  <TextField label="Actividad Económica" fullWidth  name="actividadEconomica"/>
+                  <TextField label="Profesión" fullWidth name="profesion" />
+                  <TextField label="Cargo" fullWidth  name="cargo"/>
+                  <TextField label="Ingresos Mensuales" fullWidth type="number"  name="ingresosMensuales"/>
+                  <TextField label="Nivel de Estudios" fullWidth  name="nivelEstudio"/>
                 </div>
                 <legend>Documentos</legend>
                 <div className="grid grid-cols-2 gap-2">
@@ -167,7 +176,7 @@ const Formulario = () => {
                     InputLabelProps={{ shrink: true }}
                     name="fechaExpiracion"
                   />
-                  <TextField label="Autoridad Expedidora" fullWidth InputLabelProps={{ shrink: true }} name="autoridadExpedidora"/>
+                  <TextField label="Autoridad Expedidora" fullWidth  name="autoridadExpedidora"/>
 
 
                    <input
@@ -189,7 +198,7 @@ const Formulario = () => {
                 </div>
 
                 <legend>Información Adicional</legend>
-                <div className="grid grid-cols-1 gap-1">
+                <div className="grid grid-cols-2 gap-2">
                   <FormControl fullWidth>
                     <InputLabel>Moneda de la Tarjeta Gobeyond</InputLabel>
                     <Select name="monedaTarjeta">
@@ -200,12 +209,13 @@ const Formulario = () => {
                 </div>
 
 
-                <div className="grid grid-cols-1 gap-1">
+                <div className="grid grid-cols-2 gap-2">
                   <FormControlLabel
                   control={<Checkbox />}
                   label="Estoy de acuerdo con los términos"
                   name="terminos"
                   />
+                  <br/>
                   <FormControlLabel
                     control={<Checkbox />}
                     label="Manifiesto mi consentimiento"

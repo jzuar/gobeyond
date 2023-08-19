@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-  background-image: url(/images/bg_img.jpg);
+  background-image: url(/images/bg_img.webp);
 }
 
 .hero .header-logo {
@@ -94,7 +94,6 @@ body {
 }
 
 .attention {
-  padding: 75px 60px;
 }
 
 .attention .copy-title {
@@ -102,7 +101,6 @@ body {
 }
 .attention .copy-title,
 .attention .copy-subtitle {
-  font-size: 70px;
   color: #EAC43C;
 }
 
@@ -114,7 +112,6 @@ body {
 
 .attention .items {
   padding: 0 0 0 20px;
-  font-size: 25px;
   font-weight: lighter;
 }
 
@@ -144,7 +141,6 @@ body {
 
 /*****/
 .goBeyond_form .title {
-  font-size: 70px;
   color: #EAC43C;
   margin: 0 0 30px;
 }
@@ -169,7 +165,6 @@ body {
 .goBeyond_form legend,
 .goBeyond_form label {
   color: #3F4B59;
-  font-size: 40px;
   margin: 45px 0 15px;
 }
 .goBeyond_form label {
