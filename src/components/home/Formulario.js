@@ -95,7 +95,7 @@ const Formulario = () => {
     <div className="goBeyond_form bg_page grid place-items-center w-full">
       <div className="w-full max-w-5xl content-center justify-center">
          <hr class="division-line" />
-         <div class="title text-4xl sm:text-7xl">
+         <div class="title text-4xl sm:text-7xl px-5 sm:px-1">
             <h3 class="first-part">Solicita tu<br/>
             <img src="/images/logo_no_icon_black.svg" alt="goBeyond-text" /> Card</h3>
           </div>
