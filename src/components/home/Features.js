@@ -10,7 +10,7 @@ const featuresData = [
 function Features(){
     return(
         <>
-        <div className="attention grid place-items-center w-full">
+        <div className="attention grid place-items-center w-full px-5 sm:px-1">
             <div className="max-w-5xl py-5 sm:py-24 content-center justify-center">
                  <h2 className="copy-title text-2xl sm:text-5xl">¡ATENCIÓN!<br/>
                 Leer completo antes de comenzar
