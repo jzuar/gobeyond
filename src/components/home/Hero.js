@@ -9,10 +9,6 @@ function Hero(){
                     FORMULARIO DE INSCRIPCIÓN
                 </h1>
                 <hr className="line" />
-                <div className="paragraphs py-2 sm:py-6">
-                    <p>GO BEYOND</p>
-                    <p>FORMULARIO DE INSCRIPCIÓN</p>
-                </div>
             </div>
         </div>
     )

@@ -12,7 +12,7 @@ function Features(){
         <>
         <div className="attention grid place-items-center w-full">
             <div className="max-w-5xl py-5 sm:py-24 content-center justify-center">
-                 <h2 className="copy-title text-4xl sm:text-7xl">¡ATENCIÓN!<br/>
+                 <h2 className="copy-title text-2xl sm:text-5xl">¡ATENCIÓN!<br/>
                 Leer completo antes de comenzar
                 </h2>
                 <ul class="items text-sm sm:text-2xl">
