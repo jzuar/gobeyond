@@ -126,7 +126,7 @@ body {
 }
 
 .attention .copy-logo>img {
-  width: 20%;
+  width: 30%;
 }
 
 .attention .division-line {
@@ -230,6 +230,10 @@ footer {
   .goBeyond_form .fecha {
     padding-top: 1rem;
   }
+
+    .attention .copy-logo>img {
+      width: 50%;
+    }
 }
 
 /* Tablet and Smaller Desktop */
