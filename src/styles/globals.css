@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-  background-image: url(/images/bg_img.jpg);
+  background-image: url(/images/bg_hero_img.webp);
 }
 
 .hero .header-logo {
@@ -93,17 +93,13 @@ body {
   background-color: #f5f5f5;
 }
 
-.attention {
-  padding: 75px 60px;
-}
-
 .attention .copy-title {
   width: 65%;
+  padding-bottom: 4rem;
 }
 .attention .copy-title,
 .attention .copy-subtitle {
-  font-size: 70px;
-  color: #EAC43C;
+  color: #A9872E;
 }
 
 .attention .copy-subtitle {
@@ -114,8 +110,8 @@ body {
 
 .attention .items {
   padding: 0 0 0 20px;
-  font-size: 25px;
   font-weight: lighter;
+  list-style: disc;
 }
 
 .attention .items>li {
@@ -125,7 +121,7 @@ body {
 
 .attention .copy-logo {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   margin: 90px 0 60px;
 }
 
@@ -144,13 +140,22 @@ body {
 
 /*****/
 .goBeyond_form .title {
-  font-size: 70px;
   color: #EAC43C;
   margin: 0 0 30px;
+  padding-top: 4rem;
 }
 
 .goBeyond_form .title .first-part {
-  margin: 0 0 15px;
+  font-family: "Lato";
+  font-size: 3rem;
+  color: #A9872E;
+  margin: 10rem 0 5rem;
+}
+
+.goBeyond_form .title .first-part img {
+  max-width: 60%;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 .goBeyond_form .title .last-part {
@@ -169,7 +174,6 @@ body {
 .goBeyond_form legend,
 .goBeyond_form label {
   color: #3F4B59;
-  font-size: 40px;
   margin: 45px 0 15px;
 }
 .goBeyond_form label {
@@ -204,11 +208,24 @@ body {
     background-image: url("/images/footer.svg");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: contain;
 }
+footer {
+  padding-bottom: 15em;
+}
+
+.hero .footer-logo {
+  width: 100%;
+  margin: 0
+}
+
 
 /* Mobile */
 @media (max-width: 700px) {
-
+  .attention .items {
+    font-size: 1rem!important;
+    font-weight: lighter!important;
+  }
 }
 
 /* Tablet and Smaller Desktop */
