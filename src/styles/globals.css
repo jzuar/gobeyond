@@ -226,6 +226,10 @@ footer {
     font-size: 1rem!important;
     font-weight: lighter!important;
   }
+
+  .goBeyond_form .fecha {
+    padding-top: 1rem;
+  }
 }
 
 /* Tablet and Smaller Desktop */

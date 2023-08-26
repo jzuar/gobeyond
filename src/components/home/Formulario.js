@@ -107,7 +107,7 @@ const Formulario = () => {
                     <TextField label="Primer Apellido" fullWidth  name="primerApellido"/>
                     <TextField label="Segundo Apellido" fullWidth  name="segundoApellido"/>
                   </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-3">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-3 fecha">
 
                       <TextField
                         label="Fecha de Nacimiento"
@@ -182,37 +182,26 @@ const Formulario = () => {
                     />
                     <TextField label="Autoridad Expedidora" fullWidth  name="autoridadExpedidora"/>
 
-                    <label htmlFor="frontPhotoInput" className='w-full p-4 bg-black rounded-md shadow-md text-white text-center cursor-pointer transition duration-300 ease-in-out hover:text-xl'>
-                      <input
-                        style={{ display: 'none' }}
-                        type="file"
-                        accept="image/*"
-                        onChange={(event) => handleFrontPhotoChange(event.target.files[0])}
-                        name="frontPhoto"
-                        id="frontPhotoInput"
-                        className="mt-1 p-2 border rounded-md bg-black hover:bg-black-700 text-white"
-                      />
 
-                      <Button color="secondary" variant="contained" component="span">
-                        Foto delantera de identificacion
-                      </Button>
-                    </label>
+                    <Input
+                      label="Foto delantera de identificacion"
+                      type="file"
+                      accept="image/*"
+                      onChange={(event) => handleFrontPhotoChange(event.target.files[0])}
+                      name="frontPhoto"
+                      className="mt-1 p-2 border rounded-md bg-black hover:bg-black-700 text-white"
+                    />
+                  <Input
+                      label="Foto posterior de identificacion"
+                      type="file"
+                      accept="image/*"
+                      onChange={(event) => handleBackPhotoChange(event.target.files[0])}
+                      name="backPhoto"
+                      className="mt-1 p-2 border rounded-md bg-black hover:bg-black-700 text-white"
+                    />
 
-                    <label htmlFor="backPhotoInput" className='w-full p-4 bg-black rounded-md shadow-md text-white text-center cursor-pointer transition duration-300 ease-in-out hover:text-xl'>
-                        <input
-                          style={{ display: 'none' }}
-                          type="file"
-                          accept="image/*"
-                          onChange={(event) => handleFrontPhotoChange(event.target.files[0])}
-                          name="backPhoto"
-                          id="backPhotoInput"
-                          className="mt-1 p-2 border rounded-md bg-black hover:bg-black-700 text-white"
-                        />
 
-                        <Button color="secondary" variant="contained" component="span">
-                          Foto posterior de identificacion
-                        </Button>
-                    </label>
+
                   </div>
 
                   <legend class="container-title-1 text-2xl sm:text-4xl">Información Adicional</legend>
@@ -268,21 +257,15 @@ const Formulario = () => {
                       </div>
                       <div className="img-right">
 
-                        <label htmlFor="pagoPhotoInput" className='w-full p-4 bg-black rounded-md shadow-md text-white text-center cursor-pointer transition duration-300 ease-in-out hover:text-xl'>
-                          <input
-                            style={{ display: 'none' }}
-                            type="file"
-                            accept="image/*"
-                            onChange={(event) => handleFrontPhotoChange(event.target.files[0])}
-                            name="pagoPhoto"
-                            id="pagoPhotoInput"
-                            className="mt-1 p-2 border rounded-md bg-black hover:bg-black-700 text-white"
-                          />
+                      <Input
+                        label="Foto comprobante de pago"
+                        type="file"
+                        accept="image/*"
+                        onChange={(event) => handleFrontPhotoChange(event.target.files[0])}
+                        name="pagoPhoto"
+                        className="mt-1 p-2 border rounded-md bg-black hover:bg-black-700 text-white"
+                      />
 
-                        <Button color="secondary" variant="contained" component="span">
-                          Foto comprobante de pago
-                        </Button>
-                       </label>
                       </div>
                     </div>
 
